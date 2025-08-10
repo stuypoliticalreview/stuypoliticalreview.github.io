@@ -1,7 +1,7 @@
 title: "Stuyvesant Political Review"
 description: "Stuyvesant High School’s nonpartisan political magazine and website."
 baseurl: ""
-url: "stuypoli-2e6562.gitlab.io" 
+url: "stuypoliticalreview.github.io" 
 
 # Markdown settings
 markdown: kramdown
