@@ -1,0 +1,15 @@
+title: "Stuyvesant Political Review"
+description: "Stuyvesant High School’s nonpartisan political magazine and website."
+baseurl: "" # Leave empty unless in a subfolder
+url: ""     # Will be your GitHub Pages URL later
+
+# Markdown settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Collections
+collections:
+  posts:
+    output: true
