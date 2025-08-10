@@ -1,2 +1,2 @@
 # stuypoli.gitlab.io
-The SPR Website
+The SPR Website 2025
