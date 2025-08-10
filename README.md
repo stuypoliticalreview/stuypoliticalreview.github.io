@@ -1,2 +1,2 @@
-# stuypoli.github.io
-The SPR Websiye
+# stuyvesant-political-review.github.io
+The SPR Website
