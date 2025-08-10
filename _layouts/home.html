@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<section class="hero" style="background-image: url('/assets/images/hero.png');"
+">
+  <div class="hero-text">
+    <h1 class="hero-main">The Stuyvesant Political Review</h1>
+    <p class="hero-second">Stuyvesant High School’s journal of politics and public policy both domestic and foreign.</p>
+  </div>
+</section>
+
+
+<section class="articles-grid">
+    {% for post in site.posts %}
+      <article>
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="">
+        {% endif %}
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="meta">{{ post.date | date: "%m.%d.%Y" }}{% if post.author %} - By {{ post.author }}{% endif %}</p>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt }}</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>  
