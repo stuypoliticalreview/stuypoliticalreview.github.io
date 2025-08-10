@@ -13,3 +13,6 @@ plugins:
 collections:
   posts:
     output: true
+
+plugins:
+  - jekyll-sitemap
