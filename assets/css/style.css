@@ -77,22 +77,35 @@ nav a.submit-link {
   background-color: var(--text-black-background-color);
   font-weight: 600;
 }
-
 .articles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* Ensures 3 articles per row */
   gap: 1.5rem;
   padding: 2rem;
 }
 
 .articles-grid article {
   background: var(--background-color);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .articles-grid img {
   width: 100%;
   height: 180px;
   object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .articles-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 articles per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr; /* 1 article per row on small screens */
+  }
 }
 
 .post {
