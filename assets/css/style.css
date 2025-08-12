@@ -22,7 +22,7 @@ a {
 
 .site-header {
   margin: 0 auto; 
-  max-width: 900px;
+  max-width: 1000px;
   background: var(--background-color);
 }
 
@@ -61,7 +61,7 @@ nav a.submit-link {
   font-size: 2rem;
   padding: 4rem 2rem;
   text-align: left;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto; 
   border-bottom: 30px solid var(--text-black-background-color);
 }
@@ -83,7 +83,7 @@ nav a.submit-link {
 }
 .articles-grid {
   margin: 0 auto; 
-  max-width: 900px;
+  max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Ensures 3 articles per row */
   gap: 1.5rem;
@@ -101,20 +101,8 @@ nav a.submit-link {
   object-fit: cover;
 }
 
-@media (max-width: 1200px) {
-  .articles-grid {
-    grid-template-columns: repeat(2, 1fr); 
-  }
-}
-
-@media (max-width: 768px) {
-  .articles-grid {
-    grid-template-columns: 1fr; 
-  }
-}
-
 .post {
-  max-width: 9%;
+  max-width: 1000px;
   padding: 0 30px; 
   box-sizing: border-box; 
   margin: 0 auto; 
