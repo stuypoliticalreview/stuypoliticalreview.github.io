@@ -62,6 +62,7 @@ nav a.submit-link {
   padding: 4rem 2rem;
   text-align: left;
   max-width: 900px;
+  margin: 0 auto; 
   border-bottom: 30px solid var(--text-black-background-color);
 }
 
@@ -81,6 +82,7 @@ nav a.submit-link {
   font-weight: 600;
 }
 .articles-grid {
+  margin: 0 auto; 
   max-width: 900px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Ensures 3 articles per row */
