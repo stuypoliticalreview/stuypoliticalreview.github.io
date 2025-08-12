@@ -21,6 +21,7 @@ a {
 }
 
 .site-header {
+  margin: 0 auto; 
   max-width: 700px;
   background: var(--background-color);
 }
