@@ -21,6 +21,7 @@ a {
 }
 
 .site-header {
+  max-width: 700px;
   background: var(--background-color);
 }
 
@@ -98,17 +99,18 @@ nav a.submit-link {
 
 @media (max-width: 1200px) {
   .articles-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 articles per row on medium screens */
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
 @media (max-width: 768px) {
   .articles-grid {
-    grid-template-columns: 1fr; /* 1 article per row on small screens */
+    grid-template-columns: 1fr; 
   }
 }
 
 .post {
+  max-width: 700px;
   padding: 0 30px; 
   box-sizing: border-box; 
   margin: 0 auto; 
