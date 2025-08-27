@@ -90,13 +90,12 @@ nav a.submit-link {
   padding: 2rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .articles-grid {
-    grid-template-columns: 1fr; /* 1 article per row */
-    padding: 1rem;
+    grid-template-columns: repeat(2, 1fr); /* 2 articles per row */
+    padding: 1.5rem;
   }
 }
-
 
 .articles-grid article {
   background: var(--background-color);
