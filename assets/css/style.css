@@ -90,6 +90,14 @@ nav a.submit-link {
   padding: 2rem;
 }
 
+@media (max-width: 480px) {
+  .articles-grid {
+    grid-template-columns: 1fr; /* 1 article per row */
+    padding: 1rem;
+  }
+}
+
+
 .articles-grid article {
   background: var(--background-color);
   overflow: hidden;
