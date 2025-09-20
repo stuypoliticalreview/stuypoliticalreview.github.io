@@ -1,12 +1,10 @@
 :root {
-  --accent-color: #101683; /* central color you can change */
+  --accent-color: #101683; 
   --background-color: white;
   --text-color: black;
   --gray-color: gray;
   --text-black-background-color: black;
 }
-
-/* Use the variables throughout the CSS */
 
 body {
   margin: 0;
@@ -21,12 +19,16 @@ a {
 }
 
 .site-header {
-  margin: 0 auto; 
-  max-width: 1000px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background: var(--background-color);
+  width: 100%;
 }
 
 .nav-container {
+  margin: 0 auto;
+  max-width: 1000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,14 +87,14 @@ nav a.submit-link {
   margin: 0 auto; 
   max-width: 1000px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Ensures 3 articles per row */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 1.5rem;
   padding: 2rem;
 }
 
 @media (max-width: 768px) {
   .articles-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 articles per row */
+    grid-template-columns: repeat(1, 1fr);
     padding: 1.5rem;
   }
 }
