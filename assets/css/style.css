@@ -69,6 +69,7 @@ nav a.submit-link {
 }
 
 .hero-text {
+  font-family: 'Times New Roman', Times, serif;
   padding: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -116,7 +117,8 @@ nav a.submit-link {
   padding: 0 1rem;
   font-size: 2rem;
   font-weight: bold;
-  border-bottom: 3px solid var(--accent-color);
+  padding-top: 25px;
+  border-bottom: 3px solid var(--text-black-background-color);
 }
 
 .post {
@@ -132,6 +134,7 @@ nav a.submit-link {
 
 .post-content{
   font-size: 1.1rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .post-image {
