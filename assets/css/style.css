@@ -110,6 +110,15 @@ nav a.submit-link {
   object-fit: cover;
 }
 
+.section-title {
+  max-width: 1000px;
+  margin: 2rem auto 1rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 3px solid var(--accent-color);
+}
+
 .post {
   max-width: 1000px;
   padding: 0 30px; 

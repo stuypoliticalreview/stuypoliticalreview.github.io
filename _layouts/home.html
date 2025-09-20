@@ -25,18 +25,23 @@ description: "Explore in-depth analysis and coverage of domestic and foreign pol
   </div>
 </section>
 
-<section class="articles-grid" aria-label="Latest articles from The Stuyvesant Political Review">
-  {% for post in site.posts %}
-    <article>
-      {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }} - Featured image" loading="lazy" />
-      {% endif %}
-      <h2><a href="{{ post.url | relative_url }}" title="Read article: {{ post.title }}">{{ post.title }}</a></h2>
-      <p class="meta" aria-label="Published on {{ post.date | date: "%B %d, %Y" }}{% if post.author %}, by {{ post.author }}{% endif %}">{{ post.date | date: "%m.%d.%Y" }}{% if post.author %} - By {{ post.author }}{% endif %}</p>
-      {% if post.excerpt %}
-        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-      {% endif %}
-    </article>
-  {% endfor %}
-</section>
-aria
+{% assign sections = "us,world,local,columns,meta" | split: "," %}
+
+{% for section in sections %}
+  <h2 class="section-title">{{ section | capitalize }}</h2>
+  <section class="articles-grid" aria-label="{{ section | capitalize }} Articles">
+    {% for post in site.categories[section] %}
+      <article>
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }} - Featured image" loading="lazy" />
+        {% endif %}
+        <h3><a href="{{ post.url | relative_url }}" title="Read article: {{ post.title }}">{{ post.title }}</a></h3>
+        <p class="meta">{{ post.date | date: "%m.%d.%Y" }}{% if post.author %} – By {{ post.author }}{% endif %}</p>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
+{% endfor %}
+
