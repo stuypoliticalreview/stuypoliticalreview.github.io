@@ -69,7 +69,6 @@ nav a.submit-link {
 }
 
 .hero-text {
-  font-family: 'Times New Roman', Times, serif;
   padding: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -101,6 +100,7 @@ nav a.submit-link {
 }
 
 .articles-grid article {
+  font-family: 'Times New Roman', Times, serif;
   background: var(--background-color);
   overflow: hidden;
 }
@@ -112,6 +112,8 @@ nav a.submit-link {
 }
 
 .section-title {
+  font-family: 'Lora', serif;
+  font-weight: 700;
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 1rem;
@@ -134,7 +136,7 @@ nav a.submit-link {
 
 .post-content{
   font-size: 1.1rem;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Lora', serif;
 }
 
 .post-image {
