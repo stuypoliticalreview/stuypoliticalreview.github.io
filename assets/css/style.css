@@ -37,10 +37,10 @@ a {
 }
 
 .logo {
+  font-family: 'Lora', serif;
   font-weight: bold;
   font-size: 2rem;
-  color: var(--background-color);
-  background-color: var(--text-black-background-color);
+  color: var(--text-color);
   padding: 5px;
 }
 
@@ -116,7 +116,6 @@ nav a.submit-link {
   font-weight: 700;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 1rem;
   font-size: 2rem;
   font-weight: bold;
   padding-top: 25px;
