@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #101683; 
+  --accent-color: #1368C9; 
   --background-color: black;
   --text-color: white;
   --gray-color: gray;
@@ -65,7 +65,7 @@ nav a.submit-link {
   text-align: left;
   max-width: 1000px;
   margin: 0 auto; 
-  border-bottom: 30px solid white;
+  border-bottom: 3px solid white;
 }
 
 .hero-text {
