@@ -1,9 +1,9 @@
 :root {
   --accent-color: #101683; 
-  --background-color: white;
-  --text-color: black;
+  --background-color: black;
+  --text-color: white;
   --gray-color: gray;
-  --text-black-background-color: black;
+  --text-black-background-color: white;
 }
 
 body {
@@ -59,13 +59,13 @@ nav a.submit-link {
 .hero {
   background-size: cover;
   background-position: center;
-  color: var(--background-color);
+  color: black;
   font-size: 2rem;
   padding: 4rem 2rem;
   text-align: left;
   max-width: 1000px;
   margin: 0 auto; 
-  border-bottom: 30px solid var(--text-black-background-color);
+  border-bottom: 30px solid white;
 }
 
 .hero-text {
@@ -75,12 +75,12 @@ nav a.submit-link {
 
 .hero-main{
   max-width: 750px;
-  background-color: var(--text-black-background-color);
+  background-color: white;
 }
 
 .hero-second{
   max-width: 700px;
-  background-color: var(--text-black-background-color);
+  background-color: white;
   font-weight: 600;
 }
 .articles-grid {
