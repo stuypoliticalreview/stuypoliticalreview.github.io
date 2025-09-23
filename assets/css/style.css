@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  font-family: Arial, sans-serif;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -112,7 +116,7 @@ nav a.submit-link {
 }
 
 .section-title {
-  font-family: Arial, sans-serif;
+  font-family: 'Lora', serif;
   font-weight: 700;
   max-width: 1000px;
   margin: 0 auto;
