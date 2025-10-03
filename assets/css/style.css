@@ -63,7 +63,7 @@ nav a.submit-link {
 .hero {
   background-size: cover;
   background-position: center;
-  color: black;
+  color: white;
   font-size: 2rem;
   padding: 4rem 2rem;
   text-align: left;
@@ -79,12 +79,12 @@ nav a.submit-link {
 
 .hero-main{
   max-width: 750px;
-  background-color: white;
+  background-color: black;
 }
 
 .hero-second{
   max-width: 700px;
-  background-color: white;
+  background-color: black;
   font-weight: 600;
 }
 .articles-grid {
