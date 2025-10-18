@@ -87,6 +87,7 @@ nav a.submit-link {
   font-weight: 600;
 }
 .articles-grid {
+  font-family: 'Lora', serif;
   margin: 0 auto; 
   max-width: 1000px;
   display: grid;
@@ -103,6 +104,7 @@ nav a.submit-link {
 }
 
 .articles-grid article {
+  font-size: 0.9rem;
   background: var(--background-color);
   overflow: hidden;
 }
@@ -118,7 +120,7 @@ nav a.submit-link {
   font-weight: 700;
   max-width: 1000px;
   margin: 0 auto;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   padding-top: 25px;
   border-bottom: 3px solid var(--text-black-background-color);
