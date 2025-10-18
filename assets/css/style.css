@@ -138,13 +138,17 @@ nav a.submit-link {
 }
 
 .post-content{
-  font-size: 1.1rem;
-  font-family: 'Lora', serif;
+  font-size: 1rem;
+}
+
+.post-caption{
+  color: var(--gray-color);
+  font-size: 0.9rem;
 }
 
 .post-image {
   width: 100%;
-  height: auto;
+  height: 500px;
   display: block;
 }
 
