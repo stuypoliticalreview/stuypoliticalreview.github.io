@@ -52,7 +52,7 @@ nav a {
   margin-left: 1rem;
   text-decoration: none;
   color: var(--text-color);
-  font-weight: 800;
+  font-weight: 300;
 }
 
 nav a.submit-link {
@@ -120,7 +120,7 @@ nav a.submit-link {
   font-weight: 700;
   max-width: 1000px;
   margin: 0 auto;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding-top: 25px;
   border-bottom: 3px solid var(--text-black-background-color);
