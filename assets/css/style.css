@@ -13,6 +13,10 @@ body {
   background: var(--background-color);
 }
 
+h3 {
+  color: var(--text-color);
+}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
@@ -59,10 +63,11 @@ nav a.submit-link {
   background-size: cover;
   background-position: center;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 4rem 2rem;
   text-align: left;
   max-width: 1000px;
+  max-height: 350px;
   margin: 0 auto; 
   border-bottom: 3px solid black;
 }
@@ -78,6 +83,7 @@ nav a.submit-link {
 }
 
 .hero-second{
+  font-size: 1rem;
   max-width: 700px;
   background-color: black;
   font-weight: 600;
