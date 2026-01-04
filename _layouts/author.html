@@ -2,13 +2,28 @@
 layout: default
 ---
 
+{% assign author_id = page.author | slugify %}
+{% assign author = site.data.authors[author_id] %}
+
 <section class="author-header">
-  <h1 class="author-name">Articles by {{ page.author }}</h1>
+  {% if author.image %}
+    <img src="{{ author.image | relative_url }}" alt="{{ author.name }}" class="author-photo">
+  {% endif %}
+
+  <div class="author-info">
+    <h1 class="author-name">{{ author.name }}</h1>
+    {% if author.role %}
+      <p class="author-role">{{ author.role }}</p>
+    {% endif %}
+    {% if author.bio %}
+      <p class="author-bio">{{ author.bio }}</p>
+    {% endif %}
+  </div>
 </section>
 
 <section class="articles-grid">
   {% for post in site.posts %}
-    {% if post.author == page.author %}
+    {% if post.author == author.name %}
       <article>
         {% if post.image %}
           <a href="{{ post.url | relative_url }}">

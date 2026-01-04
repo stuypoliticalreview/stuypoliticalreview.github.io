@@ -1,4 +1,34 @@
 ---
 layout: default
 title: "Staff"
+permalink: /staff/
 ---
+
+<section class="staff-grid">
+  {% for author in site.data.authors %}
+    {% assign id = author[0] %}
+    {% assign data = author[1] %}
+
+    <article class="staff-card">
+      {% if data.image %}
+        <a href="{{ '/authors/' | relative_url }}{{ id }}/">
+          <img src="{{ data.image | relative_url }}" alt="{{ data.name }}">
+        </a>
+      {% endif %}
+
+      <h3>
+        <a href="{{ '/authors/' | relative_url }}{{ id }}/">
+          {{ data.name }}
+        </a>
+      </h3>
+
+      {% if data.role %}
+        <p class="staff-role">{{ data.role }}</p>
+      {% endif %}
+
+      {% if data.bio %}
+        <p class="staff-bio">{{ data.bio | truncate: 140 }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+</section>
