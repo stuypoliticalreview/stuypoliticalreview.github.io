@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>Articles by {{ page.author }}</h1>
+
+<ul>
+  {% for post in site.posts %}
+    {% if post.author == page.author %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="date">({{ post.date | date: "%B %d, %Y" }})</span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
