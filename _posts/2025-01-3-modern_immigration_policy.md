@@ -3,7 +3,7 @@ layout: post
 title: "Don’t Forget, America Runs on Immigration"
 date: 2025-01-03
 author: Violet S. Tran
-image: /assets/images/articles/immigration_and_customs_enforcement1.jpg
+image: /assets/images/articles/ice1.jpg
 caption: ICE Enforcement and Removal Operations in Los Angeles, California, June 12, 2025 | DHS photo by Tia Dufour obtained via Wikimedia Commons
 categories: "national"
 excerpt: "A look at how immigration shape's America’s economy and identity."
