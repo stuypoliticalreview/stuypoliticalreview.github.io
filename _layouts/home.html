@@ -38,7 +38,7 @@ description: "Explore in-depth analysis and coverage of domestic and foreign pol
             <img src="{{ post.image | relative_url }}" alt="{{ post.title }} - Featured image" loading="lazy" />
           {% endif %}
           <h3><a href="{{ post.url | relative_url }}" title="Read article: {{ post.title }}">{{ post.title }}</a></h3>
-          <p class="meta">{{ post.date | date: "%m.%d.%Y" }}{% if post.author %} – By {{ post.author }}{% endif %}</p>
+          <p class="meta">{{ post.date | date: "%m.%d.%Y" }}{% if post.author %} – By <a href="{{ '/authors/' | relative_url }}{{ page.author | slugify }}/">{{ page.author }}</a>{% endif %}</p>
           {% if post.excerpt %}
             <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
           {% endif %}

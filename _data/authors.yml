@@ -5,3 +5,10 @@ violet-s-tran:
     Violet S. Tran is the Editor-in-Chief of the Stuyvesant Political Review.
     She focuses on civil rights, international affairs, and politics.
   image: /assets/authors/violetstran.jpg
+
+  the-spr-editoral-board:
+  name: The SPR Editoral Board
+  role: The Editoral Board
+  bio: >
+    It's the Editoral Board :)
+  image: /assets/authors/editoralboard.jpg
