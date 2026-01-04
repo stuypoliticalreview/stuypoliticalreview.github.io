@@ -2,15 +2,28 @@
 layout: default
 ---
 
-<h1>Articles by {{ page.author }}</h1>
+<section class="author-header">
+  <h1 class="author-name">Articles by {{ page.author }}</h1>
+</section>
 
-<ul>
+<section class="articles-grid">
   {% for post in site.posts %}
     {% if post.author == page.author %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <span class="date">({{ post.date | date: "%B %d, %Y" }})</span>
-      </li>
+      <article>
+        {% if post.image %}
+          <a href="{{ post.url | relative_url }}">
+            <img src="{{ post.image | relative_url }}" alt="">
+          </a>
+        {% endif %}
+
+        <h3>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+
+        <p class="meta">
+          {{ post.date | date: "%B %d, %Y" }}
+        </p>
+      </article>
     {% endif %}
   {% endfor %}
-</ul>
+</section>

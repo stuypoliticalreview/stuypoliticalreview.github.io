@@ -153,7 +153,27 @@ nav a.submit-link {
   display: block;
 }
 
+.author-header {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 2rem 0.5rem 2rem;
+  border-bottom: 3px solid var(--text-black-background-color);
+}
+
+.author-name {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.articles-grid h3 {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0.25rem 0;
+}
+
 .meta {
   color: var(--gray-color);
   font-size: 0.9rem;
 }
+
