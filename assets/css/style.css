@@ -52,7 +52,7 @@ nav a {
   margin-left: 1rem;
   text-decoration: none;
   color: var(--text-color);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 nav a.submit-link {
@@ -83,7 +83,7 @@ nav a.submit-link {
 }
 
 .hero-second{
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 700px;
   background-color: black;
   font-weight: 600;
