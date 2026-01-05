@@ -32,7 +32,7 @@ a {
 
 .nav-container {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 968px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,7 +94,7 @@ nav a.submit-link {
   max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 1.5rem;
+  gap: 1.2rem;
   padding: 2rem;
 }
 
