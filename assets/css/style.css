@@ -141,10 +141,12 @@ nav a.submit-link {
 }
 
 .post-content{
+  font-family: 'Lora', serif;
   font-size: 1.4rem;
 }
 
 .post-caption{
+  font-family: 'Lora', serif;
   color: var(--gray-color);
   font-size: 1.2rem;
 }
