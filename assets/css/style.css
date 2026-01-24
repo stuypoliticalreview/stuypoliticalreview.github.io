@@ -141,12 +141,12 @@ nav a.submit-link {
 }
 
 .post-content{
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .post-caption{
   color: var(--gray-color);
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .post-image {

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Don’t Forget, America Runs on Immigration"
+title: "America Runs on Immigration"
 date: 2026-01-03
 author: Violet S. Tran
 image: /assets/images/articles/ice1.jpg
