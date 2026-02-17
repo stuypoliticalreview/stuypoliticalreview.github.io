@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LGBTQ+ History Isn’t Erasable"
-date: 2026-02-23
+date: 2153
 author: Andi Angeles
 image: /assets/images/articles/pride.png
 caption: Katowice Pride Parade | Photo by Silar via Wikimedia Commons

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Guide to Weaponizing the Education System"
-date: 2026-02-23
+date: 2026-02-15
 author: Violet S. Tran
 image: /assets/images/articles/dept_of_education.png
 caption: Department of Education Illustration for the SPR
