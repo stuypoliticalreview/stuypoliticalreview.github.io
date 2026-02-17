@@ -2,12 +2,60 @@ violet-s-tran:
   name: Violet S. Tran
   role: Editor-in-Chief
   bio: >
-    Violet S. Tran is the Editor-in-Chief of the Stuyvesant Political Review.
-    She focuses on civil rights, international affairs, and politics.
+    Violet S. Tran ('28) is the Editor-in-Chief of the Stuyvesant Political Review.
+    She focuses on civil rights, international affairs and public policy.
   image: /assets/images/authors/violetstran.png
 
+vincent-chen:
+  name: Vincent Chen
+  role: Managing Editor
+  bio: >
+    Vincent Chen ('28) is one of the Managing Editors at the Stuyvesant Political Review.
+    He focuses on technology, political theory and history.
+  image: /assets/images/authors/vincentchen.png
+
+lucia-fajardo:
+  name: Lucia Fajardo
+  role: Managing Editor
+  bio: >
+    Lucia Fajardo ('28) is one of the Managing Editors at the Stuyvesant Political Review.
+    She focuses on elections, legislation and education.
+  image: /assets/images/authors/luciafajardo.png
+
+fiona-chen:
+  name: Fiona Chen
+  role: Copy Editor
+  bio: >
+    Fiona Chen ('28) is one of the Copy Editors at the Stuyvesant Political Review.
+    She focuses on climate change, technology and public transit.
+  image: /assets/images/authors/fionachen.png
+
+jun-ran-teresa-xue:
+  name: Jun Ran Teresa Xue
+  role: Copy Editor
+  bio: >
+    Jun Ran / Teresa Xue ('28) is one of the Copy Editors at the Stuyvesant Political Review.
+    She focuses on sociology, education and Stuyvesant HS.
+  image: /assets/images/authors/junranteresaxue.png
+
+andi-angeles:
+  name: Andi Angeles
+  role: Copy Editor
+  bio: >
+    Andi Angeles ('28) is the Art Editor at the Stuyvesant Political Review.
+    They focus on LGBTQ+ rights, domestic issues and warfare.
+  image: /assets/images/authors/andiangeles.png
+
+scott-chu:
+  name: Scott Chu
+  role: Staff Writer
+  bio: >
+    Scott Chu ('26) is a Staff Writer at the Stuyvesant Political Review.
+    He focuses on warfare, international affairs and history.
+  image: /assets/images/authors/scottchu.png
+
 the-spr-editoral-board:
-  name: The SPR Editoral Board
+  name: The SPR Editorial Board
   role: The Editoral Board
   bio: >
     It's the Editoral Board :)
