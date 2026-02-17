@@ -6,7 +6,7 @@ author: Violet S. Tran
 image: /assets/images/articles/ice1.jpg
 caption: ICE Enforcement and Removal Operations in Los Angeles, California, June 12, 2025 | DHS photo by Tia Dufour obtained via Wikimedia Commons
 categories: "national"
-excerpt: "A look at how immigration shape's America’s economy and identity."
+excerpt: "The economy and sustained growth of the United States relies on the very immigrants being targeted by the Trump Administration and DHS."
 ---
 
 U.S. Census records show that immigrants currently account for a relatively small [14% of the U.S. population](https://map.americanimmigrationcouncil.org/locations/national/), yet as a whole they have played a significant role in shaping the nation’s demographic composition, labor force, and cultural development. The idea of America as a land of opportunity has [attracted millions from around the world](https://www.pewresearch.org/short-reads/2025/08/21/key-findings-about-us-immigrants/), each bringing with them new perspectives, skills, and cultures that have helped shape the nation's identity. Starting with the first settlers in the 1600s then the influx of European immigrants in the 19th and early 20th centuries, and then to more recent arrivals from Latin America, Asia, and Africa, immigration has been central to America's cultural and social foundation.
