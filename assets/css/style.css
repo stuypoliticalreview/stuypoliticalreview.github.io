@@ -15,6 +15,7 @@ body {
 
 h3 {
   color: var(--text-color);
+  font-size: 2rem;
 }
 
 a {
@@ -89,6 +90,7 @@ nav a {
 }
 .articles-grid {
   font-family: 'Lora', serif;
+  font-size: 1.5rem;
   margin: 0 auto; 
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
@@ -120,9 +122,8 @@ nav a {
   font-family: 'Lora', serif;
   font-weight: 700;
   margin: 0 auto;
-  font-size: 2rem;
   font-weight: bold;
-  padding: 0 30px; 
+  margin: 2rem;
   border-bottom: 3px solid var(--text-black-background-color);
 }
 
