@@ -13,6 +13,10 @@ body {
   background: var(--background-color);
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
 h3 {
   color: var(--text-color);
   font-size: 2rem;
@@ -80,12 +84,14 @@ nav a {
 .hero-main{
   font-size: 3rem;
   max-width: 750px;
+  padding: 5px;
   background-color: var(--accent-color);
 }
 
 .hero-second{
   font-size: 2rem;
   max-width: 700px;
+  padding: 5px;
   background-color: var(--accent-color);
   font-weight: 600;
 }
