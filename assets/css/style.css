@@ -27,6 +27,10 @@ nav a.header-links {
   color: var(--background-color);
 }
 
+article {
+  font-size: 1.5rem;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -90,7 +94,6 @@ nav a {
 }
 .articles-grid {
   font-family: 'Lora', serif;
-  font-size: 1.5rem;
   margin: 0 auto; 
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
