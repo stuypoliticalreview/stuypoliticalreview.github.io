@@ -80,13 +80,13 @@ nav a {
 .hero-main{
   font-size: 3rem;
   max-width: 750px;
-  background-color: black;
+  background-color: var(--accent-color);
 }
 
 .hero-second{
   font-size: 2rem;
   max-width: 700px;
-  background-color: black;
+  background-color: var(--accent-color);
   font-weight: 600;
 }
 .articles-grid {
