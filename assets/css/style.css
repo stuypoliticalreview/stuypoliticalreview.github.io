@@ -27,10 +27,6 @@ nav a.header-links {
   color: var(--background-color);
 }
 
-article {
-  font-size: 1.5rem;
-}
-
 .site-header {
   position: sticky;
   top: 0;
@@ -82,12 +78,13 @@ nav a {
 }
 
 .hero-main{
+  font-size: 3rem;
   max-width: 750px;
   background-color: black;
 }
 
 .hero-second{
-  font-size: 1.2rem;
+  font-size: 2rem;
   max-width: 700px;
   background-color: black;
   font-weight: 600;
@@ -109,7 +106,7 @@ nav a {
 }
 
 .articles-grid article {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   background: var(--background-color);
   overflow: hidden;
 }
