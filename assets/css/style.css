@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #9c1010; 
+  --accent-color: #ed2b2b; 
   --background-color: white;
   --text-color: black;
   --gray-color: gray;
@@ -26,7 +26,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: var(--background-color);
+  background: var(--accent-color);
   width: 100%;
 }
 
@@ -37,6 +37,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  color: var(--background-color);
 }
 
 .logo {
