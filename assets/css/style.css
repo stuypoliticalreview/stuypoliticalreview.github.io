@@ -19,6 +19,11 @@ h3 {
 
 a {
   text-decoration: none;
+  background: var(--accent-color);
+}
+
+#header-links {
+  color: var(--background-color);
 }
 
 .site-header {
@@ -31,12 +36,11 @@ a {
 
 .nav-container {
   margin: 0 auto;
-  max-width: 1000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  color: var(--background-color);
+  color: var(--background-color)
 }
 
 .logo {
@@ -66,7 +70,6 @@ nav a.submit-link {
   font-size: 1.5rem;
   padding: 4rem 2rem;
   text-align: left;
-  max-width: 936px;
   max-height: 350px;
   margin: 0 auto; 
   border-bottom: 3px solid black;
@@ -78,20 +81,17 @@ nav a.submit-link {
 }
 
 .hero-main{
-  max-width: 750px;
   background-color: black;
 }
 
 .hero-second{
   font-size: 1.2rem;
-  max-width: 700px;
   background-color: black;
   font-weight: 600;
 }
 .articles-grid {
   font-family: 'Lora', serif;
   margin: 0 auto; 
-  max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 1.2rem;
