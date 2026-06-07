@@ -6,7 +6,7 @@ author: The SPR Editorial Board
 image: /assets/images/articles/spectator.png
 caption: Stuyvesant Spectator Logo | Used Under Fair Use Doctrine
 categories: "local"
-excerpt: "TBD"
+excerpt: "A Friendly Look at AI Sourcing and Journalistic Policy Through the Stuyvesant Spectator"
 ---
 
 Artificial Intelligence or AI has been prominent in many of our everyday lives since [ChatGPT was made public in 2022](https://openai.com/index/chatgpt/) and companies began to integrate AI into various software systems. While there are potential benefits in the medical and technology fields, there are also many concerns regarding the accuracy and reliability of generative AI especially due to it being [prone to hallucinations](https://www.ibm.com/think/topics/ai-hallucinations) and [mirroring human biases](https://learn.hms.harvard.edu/insights/all-insights/confronting-mirror-reflecting-our-biases-through-ai-health-care). This is why we believe it should not be used to blindly find and copy sources for research and journalistic purposes and is the focus of our investigation into the Stuyvesant Spectator.
