@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Promise of Affordable Higher Education"
-date: 2026-02-15
+date: 2026-06-08
 author: Amelia Kwok
 image: /assets/images/articles/cuny.png
 caption: Photo from the City University of New York Website
