@@ -6,7 +6,7 @@ author: Amelia Kwok
 image: /assets/images/articles/cuny.png
 caption: Photo from the City University of New York Website
 categories: "local"
-excerpt: "TBD"
+excerpt: "With cost of living and tutiton at a record high, what's the point of college?"
 ---
 
 Part of what most would consider the “American Dream” is [upwards social mobility](https://www.bushcenter.org/catalyst/state-of-the-american-dream/churchwell-history-of-the-american-dream) and education plays a large role in that. The traditionally presented narrative is that you go to college, get a worthwhile degree and find a stable job to support a family with a nice picket fence house. This is far from the case in modern American society with [2/3rds of Gen Z Americans](https://www.scotsmanguide.com/news/two-thirds-of-gen-z-think-they-will-never-own-a-home/) feeling that they will never be able to own a home despite many wanting to. Finding [work has become challenging](https://www.cnn.com/2026/06/01/economy/finding-new-job-challenges) despite increasing jobs for many and there is a public sentiment that [wages aren’t keeping up with our higher cost of living](https://www.shrm.org/topics-tools/news/benefits-compensation/workers-say-pay-isnt-keeping-up-with-cost-of-living), but at least we can take comfort in our valuable college education right?
