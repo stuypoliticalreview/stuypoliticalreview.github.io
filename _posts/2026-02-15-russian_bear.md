@@ -9,4 +9,4 @@ categories: "international"
 excerpt: "TBD"
 ---
 
-Article coming in the next edition end of Febuary!
+Article coming in the next edition end of school year!
