@@ -19,7 +19,6 @@ It is impossible to discuss Russia without mentioning its predecessor, the Sovie
 
 After World War II, the Soviets would grow their sphere of influence to encompass the entirety of Eastern Europe, save for Yugoslavia. Dissent in Soviet satellite states was crushed; in Prague, 1968, attempts at reform were [squashed](https://thenonviolenceproject.wisc.edu/2023/03/24/seven-days-that-ended-the-prague-spring/) by the Soviet Army, while inside 1956 Hungary, a democratic revolution was brutally suppressed. Despite this, resistance still accumulated, and by the 1980s, the Soviet Union was on the decline and unable to manage these protests. A combination of [factors](https://www.britannica.com/story/why-did-the-soviet-union-collapse), ranging from the intended purpose of *glasnost* failing to crashing oil prices to disasters such as the invasion of Afghanistan and Chernobyl spelled the end of the Soviet Union. By the turn of the millennium, the Soviet Union was nothing but a memory of the past.
 
-## **Legacy of a Tyranny**
 Despite the Soviet Union having fallen thirty-five years ago, its successor, Russia, has continually exerted its power amongst the post-Warsaw Pact nations through a variety of means. Claims of election interference, bribes, and political violence are rife in many Eastern European states. I will now look at a number of case studies of Russian pervasive influence in Eastern Europe.
 
 ## **The Baltics: Weaponization of a People**
