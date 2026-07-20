@@ -181,9 +181,11 @@ nav a {
     text-align: center;
     font-size: 3rem;
     transition: .3s ease;
-    color: white;
 }
 
+.off-screen-menu a {
+    color: rgb(0,0,0);
+}
 .off-screen-menu.active {
     right: 0;
 }
