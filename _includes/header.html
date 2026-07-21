@@ -1,7 +1,7 @@
 <header class="site-header">
     <div class="nav-container">
       <div class="logo">The Stuyvesant Political Review</div>
-      <nav id ="header-links">
+      <nav #id ="header-links">
         <a href="/" class="header-links">HOME</a>
         <a href="/sections/us.html" class="header-links">U.S.</a>
         <a href="/sections/world.html" class="header-links">WORLD</a>
@@ -10,36 +10,7 @@
         <a href="/sections/staff.html" class="header-links">STAFF</a>
         <a href="/meta/2025/12/31/welcome.html" class="header-links">ABOUT</a>
         <a href="https://discord.gg/sqDWHt564s" class="header-links">DISCORD</a>
-      </nav>
-      <nav id="ham-menu-back"> 
-          <div class="ham-menu"> <!The three lines within the hamburger.>
-              <span></span>
-              <span></span>
-              <span></span>
-           </div>
       </nav>
     </div>
   </header>
-
-  <div class="off-screen-menu">
-        <a href="/" class="header-links">HOME</a>
-        <a href="/sections/us.html" class="header-links">U.S.</a>
-        <a href="/sections/world.html" class="header-links">WORLD</a>
-        <a href="/sections/local.html" class="header-links">LOCAL</a>
-        <a href="/assets/issues/issue_001.pdf" class="header-links">MAGAZINE</a>
-        <a href="/sections/staff.html" class="header-links">STAFF</a>
-        <a href="/meta/2025/12/31/welcome.html" class="header-links">ABOUT</a>
-        <a href="https://discord.gg/sqDWHt564s" class="header-links">DISCORD</a>
-  </div>    
-
-<!the Javascript for hamburger menu>
-<script> 
-    const hamMenu = document.querySelector('.ham-menu');
-
-    const offScreenMenu = document.querySelector('.off-screen-menu');
-
-    hamMenu.addEventListener('click', () => {
-        hamMenu.classList.toggle('active');
-        offScreenMenu.classList.toggle('active');
-    })
-</script>
+  
