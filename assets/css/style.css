@@ -238,9 +238,11 @@ nav a {
 }
 
 .graphic-article-text {
-  display: flex;
-  align-items: center; 
-  text-align: center; 
+  display: block;    
+  margin-inline: auto;   
+  text-align: center;     
+  padding: 5px;
+  font-weight: 300;
 }
 
 .graphic-article-main {
