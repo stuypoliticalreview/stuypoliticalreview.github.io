@@ -139,6 +139,7 @@ nav a {
   margin: 0 auto;
   font-weight: bold;
   margin: 2rem;
+  font-size: 1.5rem;
   border-bottom: 3px solid var(--text-black-background-color);
 }
 
