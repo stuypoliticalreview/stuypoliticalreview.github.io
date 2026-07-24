@@ -10,7 +10,6 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: var(--text-color);
-  background: var(--background-color);
 }
 
 h2 {
@@ -272,6 +271,6 @@ nav a {
   max-width: 600px;
   margin: 0 auto; 
   padding: 5px;
-  font-weight: 100;
+  font-weight: 50;
   text-align: center;
 }
