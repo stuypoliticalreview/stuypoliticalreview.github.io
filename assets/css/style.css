@@ -238,7 +238,9 @@ nav a {
 }
 
 .graphic-article-text {
-  margin-inline: auto;
+  display: flex;
+  align-items: center; 
+  text-align: center; 
 }
 
 .graphic-article-main {
