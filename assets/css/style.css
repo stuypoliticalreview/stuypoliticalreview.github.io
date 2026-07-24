@@ -44,7 +44,7 @@ nav a.header-links:hover {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: var(--accent-color);
+  background: var(--text-black-background-color);
   width: 100%;
 }
 
@@ -91,19 +91,18 @@ nav a {
 }
 
 .hero-main{
-  font-size: 3rem;
+  font-size: 2.5rem;
   max-width: 750px;
   padding: 5px;
-  background-color: var(--accent-color);
 }
 
 .hero-second{
-  font-size: 2rem;
+  font-size: 1.5rem;
   max-width: 700px;
   padding: 5px;
-  background-color: var(--accent-color);
   font-weight: 600;
 }
+
 .articles-grid {
   font-family: 'Lora', serif;
   margin: 0 auto; 
