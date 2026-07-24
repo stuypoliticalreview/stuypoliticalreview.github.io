@@ -237,3 +237,20 @@ nav a {
   font-size: 0.9rem;
 }
 
+.graphic-article-main {
+  color: white;
+  font-size: 2.5rem;
+  max-width: 750px;
+  padding: 5px;
+  margin-inline: auto; 
+  text-align: center;   
+}
+
+.graphic-article-second {
+  font-size: 1.5rem;
+  max-width: 700px;
+  padding: 5px;
+  font-weight: 600;
+  margin-inline: auto;
+  text-align: center;
+}
