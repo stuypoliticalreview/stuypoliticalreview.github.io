@@ -31,6 +31,14 @@ a:hover {
   text-decoration-color: var(--accent-color);
 }
 
+/* webcubed was here */
+@media (max-width: 768px) {
+  #header-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 nav a.header-links {
   color: var(--background-color);
 }
