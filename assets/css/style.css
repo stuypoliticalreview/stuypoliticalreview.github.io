@@ -250,6 +250,20 @@ nav a {
 }
 /*End of hamburger menu code*/
 
+/*post tags*/
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag-link {
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}/*end of post tags*/
+
+
 .post-image {
   width: 100%;
   height: 500px;
