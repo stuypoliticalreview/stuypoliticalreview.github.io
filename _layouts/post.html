@@ -12,7 +12,8 @@ layout: default
   {% if page.tags %}
     <div class="post-tags">
       {% for tag in page.tags %}
-      <a class="tag-link" href="{{'/sections/tags/' | append: tag | slugify | relative_url }}">{{ tag | escape }} </a>
+      {% assign tag_slug = tag | slugify %}
+      <a class="tag-link" href="{{'/sections/tags/' | append: tag_slug | relative_url }}">{{ tag | escape }} </a>
       {% endfor %}
     </div>
   {% endif %}
