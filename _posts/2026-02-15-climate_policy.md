@@ -7,6 +7,8 @@ image: /assets/images/articles/arctic_ice.png
 caption: Arctic Ice | Photo by Patrick Kelley via Wikimedia Commons
 categories: "international"
 excerpt: "If we keep putting off climate action, the Earth will become severely damaged for future generations. And is that the legacy we want to leave?"
+tags: 
+  -  environmental
 ---
 
 Earth is constantly changing, so it’s no surprise that the world’s climate is subject to change as well. Climate change is a natural process—from the Ice Age to [Paleocene-Eocene Thermal Maximum](https://geo.libretexts.org/Bookshelves/Geology/Book%3A_An_Introduction_to_Geology_\(Johnson_Affolter_Inkenbrandt_and_Mosher\)/15%3A_Global_Climate_Change/15.04%3A_Prehistoric_Climate_Change). But if Earth has gone through increased temperature and come out unscathed, why is the age of climate change we live in concerning?
