@@ -1,0 +1,26 @@
+---
+layout: default
+title: Environment
+---
+
+<h1>Environment</h1>
+
+<p>What on God's green Earth is happening?</p>
+
+<section class="articles-grid">
+  {% assign filter_tag = "environmental" %}
+    {% for post in site.posts %}
+      {% if post.categories contains filter_categories %}
+        <article>
+          {% if post.image %}
+            <img src="{{ post.image | relative_url }}" alt="">
+          {% endif %}
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p class="meta">{{ post.date | date: "%m.%d.%Y" }}{% if post.author %} - By {{ post.author }}{% endif %}</p>
+          {% if post.excerpt %}
+            <p>{{ post.excerpt }}</p>
+          {% endif %}
+        </article>
+      {% endif %}
+    {% endfor %}
+  </section>
