@@ -8,7 +8,15 @@ layout: default
   {{ page.date | date: "%B %d, %Y" }} – By
   <a href="{{ '/authors/' | relative_url }}{{ page.author | slugify }}/">
     {{ page.author }}
-  </a></p>
+  </a>
+  {% if page.tags %}
+    <div class="post-tags>
+      {% for tag in page.tags %}
+      <a class="tag-link" href="{{'/tags/' | append: tag | slugify | append: '/' | relative_url }}">{{ tag | escape }} </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+  </p>
   <img src="{{ page.image | relative_url }}" alt="" class="post-image">
   <p class="post-caption">{{ page.caption }}</p>
   <div class="post-content">
