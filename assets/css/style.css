@@ -261,7 +261,17 @@ nav a {
   padding: 4px 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
-}/*end of post tags*/
+}
+
+.post-h1 {
+  margin-left: 24px; 
+}
+
+.post-p {
+  margin-left: 24px; 
+}
+
+/*end of post tags*/
 
 
 .post-image {
